@@ -20,14 +20,14 @@ document.getElementById('close-scarlet').addEventListener('click', () => {
 });
 
 // Mostrar modal de alejandro
-document.getElementById('btn-alejandro').addEventListener('click', (e) => {
+document.getElementById('btn-victor').addEventListener('click', (e) => {
     e.preventDefault();
-    document.getElementById('modal-alejandro').style.display = 'block';
+    document.getElementById('modal-victor').style.display = 'block';
 });
 
 // Cerrar modal de alejandro
-document.getElementById('close-alejandro').addEventListener('click', () => {
-    document.getElementById('modal-alejandro').style.display = 'none';
+document.getElementById('close-victor').addEventListener('click', () => {
+    document.getElementById('modal-victor').style.display = 'none';
 });
 
 // Cerrar modal si se hace clic fuera del contenido
